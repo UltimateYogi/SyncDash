@@ -1,0 +1,23 @@
+# Ignore temporary files, build files, and system-generated files
+*.log
+*.tmp
+*.ninja_log
+*.json
+*.vsidx
+
+# Ignore Unity-related cache and temporary files
+Library/
+Temp/
+Logs/
+obj/
+UserSettings/
+
+# Ignore Visual Studio-related files
+.vs/
+.vscode/
+*.csproj
+*.sln
+
+# Ignore Plastic SCM files
+.plastic/
+.utmp/
